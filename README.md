@@ -1,5 +1,5 @@
-# ToDo
-ToDo list app
--Приложение ToDo List 
--Стек приложения: HTML/CSS/JS
+# ToDo List App
+- Приложение ToDo List (https://freeri0.github.io/ToDo/)
+- Стек приложения: HTML/CSS/JS
+
 
