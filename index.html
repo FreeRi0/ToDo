@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>ToDoV2</title>
+</head>
+<body>
+  <div id="toggle">
+    <i class="indicator"></i>
+  </div>
+  <!-- App Wrapper -->
+	<main class="app">
+		
+		<!-- New Todo -->
+		<section class="create-todo">
+			<h3>Создать задачу</h3>
+			<form id="new-todo-form">
+				<h4>Какие у вас планы?</h4>
+				<input 
+					type="text" 
+					placeholder="Сходить в колледж"
+					name="content"
+					id="content" />
+				
+				<h4>Выберете категорию</h4>
+				<div class="options">
+					<label>
+						<input type="radio" name="category" id="category1" value="business" /> 
+						<span class="bubble business"></span>
+						<div>Business</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="personal" />
+						<span class="bubble personal"></span>
+						<div>Personal</div>
+					</label>
+				</div>
+
+				<input type="submit" value="Add todo" />
+			</form>
+		</section>
+		<!-- End of New Todo -->
+
+		<!-- Todo List -->
+		<section class="todo-list">
+			<h3>TODO LIST</h3>
+			<div class="list" id="todo-list"></div>
+		</section>
+		<!-- End of Todo List -->
+
+	</main>
+	<!-- End of App Wrapper -->
+  <script src="app.js"></script>
+</body>
+</html>
